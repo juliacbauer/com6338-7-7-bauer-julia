@@ -126,8 +126,8 @@ function showQuestions() {
   }
 
 //Move to next question
-//This is not correct and doesn't work
-//Tried to use if else with target answer = correct answer
+//This isn't correct but this is how I was attempting to move to next Q
+//Tried to use if/else with target answer = correct answer, didn't work
 //Stuck on this
 answerButton.target.onclick = function(e) {
   currentQuestion++
